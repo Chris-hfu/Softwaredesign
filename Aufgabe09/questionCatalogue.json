@@ -1,58 +1,80 @@
 [
   {
     "$type": "Aufgabe09.MultipleAnswers, Aufgabe09",
-    "Questiontext": "Was ist alles ein Säugetier?",
-    "callToAction": "Bitte die Zahlen der eingeben. Mit Leerzeichen!(z.B.:2 3) "
-  },
-  {
-    "$type": "Aufgabe09.MultipleChoiceQ, Aufgabe09",
     "answers": [
       {
         "$type": "Aufgabe09.Answer, Aufgabe09",
-        "text": "Niffler",
+        "text": "Wal",
         "isCorrect": true
       },
       {
         "$type": "Aufgabe09.Answer, Aufgabe09",
-        "text": "Uli Hoeneß",
+        "text": "Delphin",
+        "isCorrect": true
+      },
+      {
+        "$type": "Aufgabe09.Answer, Aufgabe09",
+        "text": "Spinne",
         "isCorrect": false
       },
       {
         "$type": "Aufgabe09.Answer, Aufgabe09",
-        "text": "Donnervogel",
-        "isCorrect": false
-      },
-      {
-        "$type": "Aufgabe09.Answer, Aufgabe09",
-        "text": "Phoenix",
-        "isCorrect": false
+        "text": "Kuh",
+        "isCorrect": true
       }
     ],
-    "Questiontext": "Wie heißt das Tierwesen(aus Phantastische Tierwesen), welches verrückt nach allem ist was glänzt?",
-    "callToAction": "Bitte die Nummer für die Antwort eingeben"
-  },
-  {
-    "$type": "Aufgabe09.EstimationQuestion, Aufgabe09",
-    "answertext": 336,
-    "Questiontext": "Wie viele Einkerbungen hat ein Golfball",
-    "callToAction": "Schätze die Richte Zahl"
-  },
-  {
-    "$type": "Aufgabe09.YesNoQ, Aufgabe09",
-    "isCorrect": true,
-    "Questiontext": "Waren die Menschen auf dem Mond?",
-    "callToAction": "Bitte y oder n eingeben"
-  },
-  {
-    "$type": "Aufgabe09.WritingQ, Aufgabe09",
-    "WordToWrite": "Der Aufseher",
-    "Questiontext": "Wer ist ohne jeden Zweifel die allerwichtigste Person in Vault 101, der Eine, der uns von den grausamen Bedingungen der Atomwüste schützt, dem wir alles, sogar unser Leben, verdanken?",
-    "callToAction": "Bitte das Richtige Wort eingeben!"
-  },
-  {
-    "$type": "Aufgabe09.WritingQ, Aufgabe09",
-    "WordToWrite": "Tisch",
-    "Questiontext": "Was hat 4 Beine und kann nicht laufen?",
-    "callToAction": "Bitte das Richtige Wort eingeben!"
-  }
-]
+    "Questiontext": "Was ist alles ein Säugetier?",
+      "callToAction": "Bitte die Zahlen der eingeben. Mit Leerzeichen!(z.B.:2 3) "
+    },
+    {
+      "$type": "Aufgabe09.MultipleChoiceQ, Aufgabe09",
+      "answers": [
+        {
+          "$type": "Aufgabe09.Answer, Aufgabe09",
+          "text": "Niffler",
+          "isCorrect": true
+        },
+        {
+          "$type": "Aufgabe09.Answer, Aufgabe09",
+          "text": "Uli Hoeneß",
+          "isCorrect": false
+        },
+        {
+          "$type": "Aufgabe09.Answer, Aufgabe09",
+          "text": "Donnervogel",
+          "isCorrect": false
+        },
+        {
+          "$type": "Aufgabe09.Answer, Aufgabe09",
+          "text": "Phoenix",
+          "isCorrect": false
+        }
+      ],
+      "Questiontext": "Wie heißt das Tierwesen(aus Phantastische Tierwesen), welches verrückt nach allem ist was glänzt?",
+      "callToAction": "Bitte die Nummer für die Antwort eingeben"
+    },
+    {
+      "$type": "Aufgabe09.EstimationQuestion, Aufgabe09",
+      "answertext": 336,
+      "Questiontext": "Wie viele Einkerbungen hat ein Golfball",
+      "callToAction": "Schätze die Richte Zahl"
+    },
+    {
+      "$type": "Aufgabe09.YesNoQ, Aufgabe09",
+      "isCorrect": true,
+      "Questiontext": "Waren die Menschen auf dem Mond?",
+      "callToAction": "Bitte y oder n eingeben"
+    },
+    {
+      "$type": "Aufgabe09.WritingQ, Aufgabe09",
+      "WordToWrite": "Der Aufseher",
+      "Questiontext": "Wer ist ohne jeden Zweifel die allerwichtigste Person in Vault 101, der Eine, der uns von den grausamen Bedingungen der Atomwüste schützt, dem wir alles, sogar unser Leben, verdanken?",
+      "callToAction": "Bitte das Richtige Wort eingeben!"
+    },
+    {
+      "$type": "Aufgabe09.WritingQ, Aufgabe09",
+      "WordToWrite": "Tisch",
+      "Questiontext": "Was hat 4 Beine und kann nicht laufen?",
+      "callToAction": "Bitte das Richtige Wort eingeben!"
+    }
+  ]
