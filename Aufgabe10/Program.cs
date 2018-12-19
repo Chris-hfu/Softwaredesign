@@ -37,7 +37,7 @@ namespace Aufgabe10
         {
             Tree<T> node = new Tree<T>
             {
-               Data = _Data
+                Data = _Data
             };
             return node;
         }
@@ -52,7 +52,7 @@ namespace Aufgabe10
         public void PrintTree(String hierarchy = "")
         {
             Console.WriteLine(hierarchy + Data);
-           foreach (Tree<T> child in children)
+            foreach (Tree<T> child in children)
             {
                 child.PrintTree(hierarchy + "*");
             }
