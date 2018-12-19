@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 
 namespace Aufgabe10
 {
-
     class Program
     {
         static void Main(string[] args)
@@ -25,42 +23,39 @@ namespace Aufgabe10
             var grand21 = tree.CreateNode("grand21");
             child2.AppendChild(grand21);
             child1.RemoveChild(grand12);
-
+            var grandgrand1 = tree.CreateNode("grandgrand1");
+            grand11.AppendChild(grandgrand1);
             root.PrintTree();
         }
     }
 
     public class Tree<T>
     {
-        public T Person;
-        public List<Tree<T>> family = new List<Tree<T>>();
-
-        public Tree<T> CreateNode(T _Person)
+        public T Data;
+        public List<Tree<T>> children = new List<Tree<T>>();
+        public Tree<T> CreateNode(T _Data)
         {
             Tree<T> node = new Tree<T>
             {
-               Person = _Person
+               Data = _Data
             };
             return node;
         }
-
         public void AppendChild(Tree<T> child)
         {
-            family.Add(child);
+            children.Add(child);
         }
         public void RemoveChild(Tree<T> child)
         {
-            family.Remove(child);
+            children.Remove(child);
         }
-
         public void PrintTree(String hierarchy = "")
         {
-            Console.WriteLine(hierarchy + Person);
-            foreach (Tree<T> child in family)
+            Console.WriteLine(hierarchy + Data);
+           foreach (Tree<T> child in children)
             {
                 child.PrintTree(hierarchy + "*");
             }
         }
     }
-
 }
