@@ -1,0 +1,11 @@
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\bin\Debug\netcoreapp2.1\Observer.deps.json
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\bin\Debug\netcoreapp2.1\Observer.runtimeconfig.json
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\bin\Debug\netcoreapp2.1\Observer.runtimeconfig.dev.json
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\bin\Debug\netcoreapp2.1\Observer.dll
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\bin\Debug\netcoreapp2.1\Observer.pdb
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\obj\Debug\netcoreapp2.1\Observer.csprojAssemblyReference.cache
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\obj\Debug\netcoreapp2.1\Observer.csproj.CoreCompileInputs.cache
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\obj\Debug\netcoreapp2.1\Observer.AssemblyInfoInputs.cache
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\obj\Debug\netcoreapp2.1\Observer.AssemblyInfo.cs
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\obj\Debug\netcoreapp2.1\Observer.dll
+C:\Users\Chrisi\Desktop\git\Softwaredesign\Aufgabe11\Observer\obj\Debug\netcoreapp2.1\Observer.pdb
