@@ -22,15 +22,18 @@ namespace Observer
     {
         int k = 10;
 
-        public event ReportProgressMethod ProgressMethod = ProgressReport;
-        
+        public event ReportProgressMethod ProgressMethod;
+        public Calculator()
+        {
+            ProgressMethod += ProgressReport;            
+        }
 
 
         public static void ProgressReport(int progress)
         {
             Console.WriteLine(progress);
         }
-  
+
 
         public void CalculateSomething()
         {
