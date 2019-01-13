@@ -63,12 +63,13 @@ namespace Aufgabe11
                 child.PrintTree(hierarchy + "*");
             }
         }
-        public void ForEach(Action<string> function)
-        {
+        public void ForEach(Action<string> func)
+        {         
             for (int i = 0; i < children.Count; i++)
             {
-                function(children[i].ToString());
+                func(children[i].ToString());
                 children[i].ForEach(Program.Func);
+               
             }
         }
 
