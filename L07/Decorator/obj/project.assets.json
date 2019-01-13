@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chrisi\\Desktop\\git\\Softwaredesign\\Aufgabe11\\Decorator\\Decorator.csproj",
+      "projectUniqueName": "C:\\Users\\Chrisi\\Desktop\\git\\Softwaredesign\\L07\\Decorator\\Decorator.csproj",
       "projectName": "Decorator",
-      "projectPath": "C:\\Users\\Chrisi\\Desktop\\git\\Softwaredesign\\Aufgabe11\\Decorator\\Decorator.csproj",
+      "projectPath": "C:\\Users\\Chrisi\\Desktop\\git\\Softwaredesign\\L07\\Decorator\\Decorator.csproj",
       "packagesPath": "C:\\Users\\Chrisi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chrisi\\Desktop\\git\\Softwaredesign\\Aufgabe11\\Decorator\\obj\\",
+      "outputPath": "C:\\Users\\Chrisi\\Desktop\\git\\Softwaredesign\\L07\\Decorator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
