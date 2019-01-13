@@ -37,8 +37,7 @@ namespace Aufgabe11
     public class Tree<T>
     {     
     
-        public T Data;
-        public T parent;
+        public T Data;      
         public List<Tree<T>> children = new List<Tree<T>>();
         public Tree<T> CreateNode(T _Data)
         {
@@ -49,8 +48,7 @@ namespace Aufgabe11
             return node;
         }
         public void AppendChild(Tree<T> child)
-        {
-            child.parent = this.Data;
+        {          
             children.Add(child);
         }
         public void RemoveChild(Tree<T> child)
